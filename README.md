@@ -102,15 +102,6 @@ You'll see scores for each axis and a composite score.
 
 Your grade is based on your **composite score**.
 
-A few benchmarks to calibrate your expectations:
-
-| Design | Composite |
-|--------|-----------|
-| SHA-256 (the gold standard — you can't use this, but it's what "perfect" looks like) | ~0.99 |
-| A decent student design with good mixing | 0.80 – 0.95 |
-| Something that works but has weak diffusion | 0.50 – 0.75 |
-| XOR folding with no real mixing | < 0.40 |
-
 You don't need to beat SHA-256. But you should aim to understand *why* your score is what it is. If your avalanche score is low, what does that tell you about your design? If collisions are too frequent, where is the mixing falling short?
 
 The goal isn't perfection — it's understanding.
